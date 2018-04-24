@@ -3,3 +3,10 @@ Gemfile.lock
 *.gem
 .bundle
 .idea
+.vscode
+.mypy_cache
+.tox/
+__pycache__/
+build/
+dist/
+swot.egg-info/
