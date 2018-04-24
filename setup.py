@@ -8,9 +8,12 @@ for root, dirs, files in os.walk("lib/domains"):
 with open("README.rst") as f:
     long_description = f.read()
 
+with open("VERSION") as f:
+    version = f.read()
+
 setup(
     name="swot",
-    version="1.0.1",
+    version=version,
     description=("Swot is a community-driven or crowdsourced library for verifying "
     "that domain names and email addresses are tied to a legitimate university of college."),
     long_description=long_description,
